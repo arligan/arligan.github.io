@@ -1,3 +1,102 @@
+#navcontainer ul
+{
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: center;
+}
+
+#li1 {
+text-decoration: none;
+padding: .3em 2em;
+color: #fff;
+background-color: #5696BC;
+    display: inline;
+}
+#li2 {
+text-decoration: none;
+padding: .3em 2em;
+color: #fff;
+background-color: #72CBDB;
+    display: inline;
+}
+#li3 {
+text-decoration: none;
+padding: .3em 2em;
+color: #fff;
+background-color: #55134E;
+    display: inline;
+}
+#li4 {
+text-decoration: none;
+padding: .3em 2em;
+color: #fff;
+background-color: #A0596B;
+    display: inline;
+}
+#li5 {
+text-decoration: none;
+padding: .3em 2em;
+color: #fff;
+background-color: #EF7351;
+    display: inline;
+}
+#li6 {
+text-decoration: none;
+padding: .3em 2em;
+color: #fff;
+background-color: #FEC343;
+    display: inline;
+}
+#li7 {
+text-decoration: none;
+padding: .3em 2em;
+color: #fff;
+background-color: #FF9A61;
+    display: inline;
+}
+
+.LinkNav {
+text-decoration:none;
+}
+
+.LinkNav {
+color: white;
+}
+
+.LinkNav {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+.LinkNav:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #E2E2E2;
+  height: 2px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.LinkNav:hover:before, .LinkNav:focus:before, .LinkNav:active:before {
+  right: 0;
+}
+
+
 #d1 {
 font-family: Calibri;
 color: white;
@@ -7,8 +106,8 @@ background-color: #72CBDB;
 padding: 100px 100px 100px 100px;
 border-style: solid;
 border-color: black;
-border-width: 7;
-border-radius: 12px;
+border-width: 10px;
+border-radius: 15px;
 }
 
 
