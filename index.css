@@ -7,7 +7,8 @@ background-color: #72CBDB;
 padding: 100px 100px 100px 100px;
 border-style: solid;
 border-color: black;
-border-width: 7;
+border-width: 7px;
+border-radius: 12px;
 }
 
 
@@ -21,6 +22,7 @@ padding: 100px 100px 100px 100px;
 border-style: solid;
 border-color: black;
 border-width: 7px;
+border-radius: 12px;
 }
 
 #d3 {
@@ -33,9 +35,23 @@ padding: 100px 100px 100px 100px;
 border-style: solid;
 border-color: black;
 border-width: 7px;
+border-radius: 12px;
 }
 
 #d4 {
+font-family: Calibri;
+color: white;
+text-align: center;
+font-size: 36px;
+background-color: #EF7351;
+padding: 100px 100px 100px 100px;
+border-style: solid;
+border-color: black;
+border-width: 7px;
+border-radius: 12px;
+}
+
+#d5 {
 font-family: Calibri;
 color: white;
 text-align: center;
@@ -45,7 +61,22 @@ padding: 100px 100px 100px 100px;
 border-style: solid;
 border-color: black;
 border-width: 7px;
+border-radius: 12px;
 }
+
+#d6 {
+font-family: Calibri;
+color: white;
+text-align: center;
+font-size: 36px;
+background-color: #FF9A61;
+padding: 100px 100px 100px 100px;
+border-style: solid;
+border-color: black;
+border-width: 7px;
+border-radius: 12px;
+}
+
  @-webkit-keyframes LinkArligan {
   50% {
     background-color: rgba(32, 152, 209, 0.75);
@@ -206,6 +237,89 @@ color: white;
   transition-property: color, transform, background-color;
 }
 .LinkAbout:hover, .LinkAbout:focus, .LinkAbout:active {
+	-webkit-transform: scale(1.1);
+  transform: scale(1.2);
+}
+
+
+ @-webkit-keyframes LinkOngoing {
+  50% {
+    background-color: rgba(32, 152, 209, 0.75);
+  }
+}
+
+@keyframes LinkOngoing {
+  50% {
+    background-color: rgba(32, 152, 209, 0.75);
+  }
+}
+
+.LinkOngoing:link {
+text-decoration:none;
+color: white;
+}
+
+.LinkOngoing:visited {
+	color: white;
+}
+
+.LinkOngoing {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: color, transform, background-color;
+  transition-property: color, transform, background-color;
+}
+.LinkOngoing:hover, .LinkOngoing:focus, .LinkOngoing:active {
+	-webkit-transform: scale(1.1);
+  transform: scale(1.2);
+}
+
+ @-webkit-keyframes LinkBlog {
+  50% {
+    background-color: rgba(32, 152, 209, 0.75);
+  }
+}
+
+@keyframes LinkBlog {
+  50% {
+    background-color: rgba(32, 152, 209, 0.75);
+  }
+}
+
+.LinkBlog:link {
+text-decoration:none;
+color: white;
+}
+
+.LinkBlog:visited {
+	color: white;
+}
+
+.LinkBlog {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: color, transform, background-color;
+  transition-property: color, transform, background-color;
+}
+.LinkBlog:hover, .LinkBlog:focus, .LinkBlog:active {
 	-webkit-transform: scale(1.1);
   transform: scale(1.2);
 }

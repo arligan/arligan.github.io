@@ -8,6 +8,7 @@ padding: 100px 100px 100px 100px;
 border-style: solid;
 border-color: black;
 border-width: 7;
+border-radius: 12px;
 }
 
 
@@ -95,7 +96,6 @@ color: white;
   opacity: 0;
   background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
   background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
-  /* W3C */
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform, opacity;
@@ -104,11 +104,11 @@ color: white;
 .LinkHov:hover, .LinkHov:focus, .LinkHovactive {
   -webkit-transform: translateY(-5px);
   transform: translateY(-5px);
-  /* move the element up by 5px */
+
 }
 .LinkHov:hover:before, .LinkHov:focus:before, .LinkHov:active:before {
   opacity: 1;
   -webkit-transform: translateY(5px);
   transform: translateY(5px);
-  /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+
 }
