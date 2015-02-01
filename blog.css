@@ -1,5 +1,5 @@
 * {
-color: white;
+color: #eeeeee;
 }
 
 #navcontainer ul
@@ -13,7 +13,7 @@ text-align: center;
 #li1 {
 text-decoration: none;
 padding: .3em 2em;
-color: #fff;
+color: #eeeeee;
 background-color: #5696BC;
     border-radius: 3px;
     display: inline;
@@ -21,7 +21,7 @@ background-color: #5696BC;
 #li2 {
 text-decoration: none;
 padding: .3em 2em;
-color: #fff;
+color: #eeeeee;
 background-color: #72CBDB;
     border-radius: 3px;
     display: inline;
@@ -29,7 +29,7 @@ background-color: #72CBDB;
 #li3 {
 text-decoration: none;
 padding: .3em 2em;
-color: #fff;
+color: #eeeeee;
 background-color: #55134E;
     border-radius: 3px;
     display: inline;
@@ -37,7 +37,7 @@ background-color: #55134E;
 #li4 {
 text-decoration: none;
 padding: .3em 2em;
-color: #fff;
+color: #eeeeee;
 background-color: #A0596B;
     border-radius: 3px;
     display: inline;
@@ -45,7 +45,7 @@ background-color: #A0596B;
 #li5 {
 text-decoration: none;
 padding: .3em 2em;
-color: #fff;
+color: #eeeeee;
 background-color: #EF7351;
     border-radius: 3px;
     display: inline;
@@ -53,7 +53,7 @@ background-color: #EF7351;
 #li6 {
 text-decoration: none;
 padding: .3em 2em;
-color: #fff;
+color: #eeeeee;
 background-color: #FEC343;
     border-radius: 3px;
     display: inline;
@@ -61,7 +61,7 @@ background-color: #FEC343;
 #li7 {
 text-decoration: none;
 padding: .3em 2em;
-color: #fff;
+color: #eeeeee;
 background-color: #FF9A61;
     border-radius: 3px;
     display: inline;
@@ -72,7 +72,7 @@ text-decoration:none;
 }
 
 .LinkNav {
-color: white;
+color: #eeeeee;
 }
 
 .LinkNav {
@@ -112,7 +112,7 @@ text-decoration:none;
 }
 
 .LinkBlog {
-color: white;
+color: #eeeeee;
 }
 
 .LinkBlog {

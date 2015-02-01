@@ -9,7 +9,7 @@ text-align: center;
 #li1 {
 text-decoration: none;
 padding: .3em 2em;
-color: #fff;
+color: #eeeeee;
 background-color: #5696BC;
     border-radius: 3px;
     display: inline;
@@ -17,7 +17,7 @@ background-color: #5696BC;
 #li2 {
 text-decoration: none;
 padding: .3em 2em;
-color: #fff;
+color: #eeeeee;
 background-color: #72CBDB;
     border-radius: 3px;
     display: inline;
@@ -25,7 +25,7 @@ background-color: #72CBDB;
 #li3 {
 text-decoration: none;
 padding: .3em 2em;
-color: #fff;
+color: #eeeeee;
 background-color: #55134E;
     border-radius: 3px;
     display: inline;
@@ -33,7 +33,7 @@ background-color: #55134E;
 #li4 {
 text-decoration: none;
 padding: .3em 2em;
-color: #fff;
+color: #eeeeee;
 background-color: #A0596B;
     border-radius: 3px;
     display: inline;
@@ -41,7 +41,7 @@ background-color: #A0596B;
 #li5 {
 text-decoration: none;
 padding: .3em 2em;
-color: #fff;
+color: #eeeeee;
 background-color: #EF7351;
     border-radius: 3px;
     display: inline;
@@ -49,7 +49,7 @@ background-color: #EF7351;
 #li6 {
 text-decoration: none;
 padding: .3em 2em;
-color: #fff;
+color: #eeeeee;
 background-color: #FEC343;
     border-radius: 3px;
     display: inline;
@@ -57,7 +57,7 @@ background-color: #FEC343;
 #li7 {
 text-decoration: none;
 padding: .3em 2em;
-color: #fff;
+color: #eeeeee;
 background-color: #FF9A61;
     border-radius: 3px;
     display: inline;
@@ -68,7 +68,7 @@ text-decoration:none;
 }
 
 .LinkNav {
-color: white;
+color: #eeeeee;
 }
 
 .LinkNav {
@@ -105,13 +105,13 @@ color: white;
 
 #d1 {
 font-family: Calibri;
-color: white;
+color: #eeeeee;
 text-align: center;
 font-size: 36px;
 background-color: #72CBDB;
 padding: 100px 100px 100px 100px;
 border-style: solid;
-border-color: black;
+border-color: #282828;
 border-width: 10px;
 border-radius: 15px;
 }
@@ -119,36 +119,36 @@ border-radius: 15px;
 
 #d2 {
 font-family: Calibri;
-color: white;
+color: #eeeeee;
 text-align: center;
 font-size: 36px;
 background-color: #55134E;
 padding: 100px 100px 100px 100px;
 border-style: solid;
-border-color: black;
+border-color: #282828;
 border-width: 7px;
 }
 
 #d3 {
 font-family: Calibri;
-color: white;
+color: #eeeeee;
 text-align: center;
 font-size: 36px;
 background-color: #A0596B;
 padding: 100px 100px 100px 100px;
 border-style: solid;
-border-color: black;
+border-color: #282828;
 border-width: 7px;
 }
 
 #d4 {
 font-family: Calibri;
-color: white;
+color: #eeeeee;
 text-align: center;
 font-size: 36px;
 background-color: #FEC343;
 padding: 100px 100px 100px 100px;
 border-style: solid;
-border-color: black;
+border-color: #282828;
 border-width: 7px;
 }
