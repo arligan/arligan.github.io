@@ -107,47 +107,6 @@ color: white;
   right: 0;
 }
 
-.LinkBlog {
-text-decoration:none;
-}
-
-.LinkBlog {
-color: white;
-}
-
-.LinkBlog {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  position: relative;
-  overflow: hidden;
-}
-.LinkBlog:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  left: 0;
-  right: 100%;
-  bottom: 0;
-  background: #E2E2E2;
-  height: 2px;
-  -webkit-transition-property: right;
-  transition-property: right;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
-}
-.LinkBlog:hover:before, .LinkBlog:focus:before, .LinkBlog:active:before {
-  right: 0;
-}
-
-
 #p0 {
 font-family: Calibri;
 text-align: center;
@@ -157,7 +116,7 @@ font-size: 50px;
 #p1 {
 font-family: Calibri;
 text-align: center;
-font-size: 32px;
+font-size: 24px;
 }
 
 #p2 {
@@ -184,6 +143,12 @@ text-align: center;
 font-size: 24px;
 }
 
+ul {
+font-family: Calibri;
+text-align: center;
+font-size: 24px;
+}
+
 #p6 {
 font-family: Calibri;
 text-align: center;
@@ -194,5 +159,5 @@ font-size: 24px;
 #p7 {
 font-family: Calibri;
 text-align: center;
-font-size: 24px;
+font-size: 30px;
 }
