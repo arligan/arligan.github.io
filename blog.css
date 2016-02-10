@@ -54,6 +54,22 @@ p {
 	flex-basis: content;
 }
 
+.main>dl>ul>li {
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+    position: relative;
+}
+
+.main>dl>ul>li :link {
+    text-decoration:underline;
+    color: #000000;
+}
+
+.main>dl>ul>li :visited {
+	color: #000000;
+    text-decoration:none;
+}
 
 #nav > ul{
     margin-left: 0.5em;
