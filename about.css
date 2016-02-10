@@ -25,6 +25,15 @@ dd {
     margin-left: 1em;
 }
 
+dd :link {
+    text-decoration: underline;
+    color: #000000;
+}
+
+dd :visited {
+    text-decoration: underline;
+    color: #000000;
+}
 
 h1 {
     font-size: 1.7em;

@@ -55,6 +55,38 @@ p {
 }
 
 
+.main>ul>li {
+    margin-top: 10px;
+    margin-right: 40px;
+    margin-left: 40px;
+    position: relative;
+}
+
+.main>ul>li :link {
+    text-decoration:none;
+    color: #000000;
+}
+
+.main>ul>li :visited {
+	color: #000000;
+    text-decoration:none;
+}
+
+.main>ul>li:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 2px solid #000000;
+  transition: 0.4s;
+}
+
+.main>ul>li:hover:after {
+  width: 20%;
+}
+
+
 #nav > ul{
     margin-left: 0.5em;
     list-style-type: none;
@@ -128,3 +160,7 @@ color: #000000;
 .Nav_Link:visited {
 	color: #000000;
 }
+
+
+
+#nav>ul>li {}
