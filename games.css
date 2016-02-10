@@ -105,6 +105,20 @@ p {
     text-align: center;
 }
 
+#jump_top :link {
+    text-decoration: none;
+    color: #000000;
+}
+
+#jump_top :visited {
+    text-decoration: none;
+    color: #000000;
+}
+
+#jump_top :hover {
+    text-decoration: underline;
+    color: #000000;
+}
 
 #bot_carry {
     margin 1em 0;
