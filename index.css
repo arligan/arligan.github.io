@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    color: #282828;
+    background: #ffffff;
+    font-size: 1em;
+    line-height: 1.4em;
+    font-family: "Calibri";
+}
+
+
+dt {
+    margin: 0.5em 0;
+    font-size: 1.25em;
+    font-weight: bold;
+    text-align: left;
+}
+
+
+dd {
+    margin-left: 1em;
+}
+
+
+h1 {
+    font-size: 1.7em;
+    margin-bottom: 0.5em;
+}
+
+
+hr {
+    border: 0;
+    height: 1px;
+    width: 100px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+
+p {
+    margin: 1em 0.5em;
+}
+
+
+#body {
+	margin-top: 2em;
+	padding: 1em;
+	flex-grow: 3;
+	flex-shrink: 1;
+	flex-basis: content;
+}
+
+
+#nav > ul{
+    margin-left: 0.5em;
+    list-style-type: none;
+    font-size: 1.25em;
+}
+
+
+#nav > ul > li{
+    margin: 0.25em 0;
+}
+
+
+#nav > hr {
+    margin: 1em 3em 0.5em 0;
+}
+
+
+#nav {
+    padding: 1em;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: cçontent;
+}
+
+
+#nav {
+	margin-left: 1em;
+	margin-top: 1em;
+}
+
+
+#dlinks {
+
+}
+
+
+#jump_top {
+    text-align: center;
+}
+
+#jump_top :link {
+    text-decoration: none;
+    color: #000000;
+}
+
+#jump_top :visited {
+    text-decoration: none;
+    color: #000000;
+}
+
+#jump_top :hover {
+    text-decoration: underline;
+    color: #000000;
+}
+
+#bot_carry {
+    margin 1em 0;
+    padding: 1em 0;
+    text-align: center;
+    font-size: 0.7em;
+    line-height: 1.1em;
+    font-style: italic;
+}
+
+
+.nav_container {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+
+.main {
+    margin-right: 10em;
+}
+
+
+.Nav_Link:link {
+text-decoration:none;
+color: #000000;
+}
+
+
+.Nav_Link:visited {
+	color: #000000;
+}
